@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
     public void Demo()
     {
