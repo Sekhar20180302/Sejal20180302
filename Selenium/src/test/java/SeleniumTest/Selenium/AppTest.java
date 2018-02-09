@@ -3,11 +3,14 @@ package SeleniumTest.Selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.junit.Test;
+
 /**
  * Unit test for simple App.
  */
 public class AppTest
 {
+@Test
     public void Demo()
     {
     	// TODO Auto-generated method stub
@@ -21,5 +24,6 @@ public class AppTest
     			 
     			// Maximize browser
     			driver.manage().window().maximize();
+    			System.out.print("Bye Bye!!!");
     }
 }
