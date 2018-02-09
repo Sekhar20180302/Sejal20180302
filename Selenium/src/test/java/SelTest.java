@@ -21,7 +21,7 @@ public class SelTest {
 		// Maximize browser
 		driver.manage().window().maximize();
 		
-		System.out.println("Hello World");
+		System.out.println("Hello World!!!!");
 		
 		driver.quit();
 	}
