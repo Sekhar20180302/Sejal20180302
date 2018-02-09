@@ -23,7 +23,7 @@ public class SelTest {
 		
 		System.out.println("Hello World!!!!");
 		
-		System.out.println("Quit");
+		System.out.println("Quit Driver");
 		
 		driver.quit();
 	}
