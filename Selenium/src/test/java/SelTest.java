@@ -22,7 +22,7 @@ public class SelTest {
 		driver.manage().window().maximize();
 		
 		System.out.println("Hello World!!!!");
-		
+		//Check
 		System.out.println("Quit Driver");
 		
 		driver.quit();
