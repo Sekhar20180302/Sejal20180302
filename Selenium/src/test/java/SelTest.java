@@ -19,7 +19,7 @@ public class SelTest {
 		driver.get("http://www.facebook.com");
 		// Maximize browsers
 		driver.manage().window().maximize();
-		//Print
+		//Print Logs
 		System.out.println("Hello World!!!!");
 		System.out.println("Quit Driver!!");
 		//Done
