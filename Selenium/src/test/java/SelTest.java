@@ -21,8 +21,6 @@ public class SelTest {
 		driver.manage().window().maximize();
 		//Print
 		System.out.println("Hello World!!!!");
-		//Check This one
-		System.out.println("Welcome Friends!!!!");
 		System.out.println("Quit Driver!!");
 		//Done
 		driver.quit();
