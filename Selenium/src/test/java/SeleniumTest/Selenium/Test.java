@@ -18,5 +18,7 @@ public class Test {
 		 
 		// Maximize browser
 		driver.manage().window().maximize();
+		
+		System.out.println("bye bye");
 }
 	}

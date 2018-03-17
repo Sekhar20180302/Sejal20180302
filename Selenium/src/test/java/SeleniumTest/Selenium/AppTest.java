@@ -24,6 +24,7 @@ public class AppTest
     			 
     			// Maximize browser
     			driver.manage().window().maximize();
+    			
     			System.out.print("Bye Bye!!!");
     }
 }
