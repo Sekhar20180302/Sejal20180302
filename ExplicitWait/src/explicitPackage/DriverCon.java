@@ -10,7 +10,7 @@ public class DriverCon {
 
 	public static WebDriver SetBrowser()
 	{
-		System.setProperty("webdriver.gecko.driver", Util.Path_FirefoxDriver);
+		System.setProperty("webdriver.chrome.driver", Util.Path_FirefoxDriver);
 		// Initialize browser
 		driver=new ChromeDriver();
 		return driver;
