@@ -3,7 +3,6 @@ package explicitPackage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,15 +11,10 @@ public class ExplicitDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String expectedTitle="Guru99 Bank Home Page";
+		WebDriver driver=DriverCon.SetBrowser();
 		String actualTitle=null;
-		String baseUrl="http://www.demo.guru99.com/V4/";
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sekhar\\Eclipse-Workspace\\Selenium Drivers\\geckodriver.exe");
-		 
-		// Initialize browser
-		WebDriver driver=new FirefoxDriver();
-		
 		// Open facebook
-		driver.get(baseUrl);
+		driver.get(Util.URL);
 		
 		// Maximize browser
 		driver.manage().window().maximize();
@@ -28,18 +22,28 @@ public class ExplicitDemo {
 		actualTitle=driver.getTitle();
 		
 		//https://www.guru99.com/implicit-explicit-waits-selenium.html
-		WebDriverWait wait = new WebDriverWait(driver, 15);
+		  WebDriverWait wait = new WebDriverWait(driver, 15);
 		  wait.until(ExpectedConditions.titleContains("Guru99 Bank Home Page"));
 
 		if(actualTitle.contains(expectedTitle))
 		{
 			System.out.println("");
 			WebElement web=driver.findElement(By.name("uid"));
-			web.sendKeys("mngr125638");
+			web.sendKeys(Util.Username);
 			WebElement pass=driver.findElement(By.name("password"));
-			pass.sendKeys("aqYnupU");
+			pass.sendKeys(Util.Password);
 			WebElement btnClick=driver.findElement(By.name("btnLogin"));
 			btnClick.click();
+			wait.until(ExpectedConditions.titleContains("Manager HomePage"));			
+			actualTitle=driver.getTitle();
+			if(actualTitle.contains("Manager"))
+			{
+				System.out.println("Welcome to the Home Page");
+			}
+			else
+			{
+				System.out.println("THis is not home page");
+			}
 		}
 		else
 		{
