@@ -1,7 +1,9 @@
 package explicitPackage;
 
+import explicitPackage.Util;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class DriverCon {
 	public static WebDriver driver = null;
@@ -10,7 +12,7 @@ public class DriverCon {
 	{
 		System.setProperty("webdriver.gecko.driver", Util.Path_FirefoxDriver);
 		// Initialize browser
-		driver=new FirefoxDriver();
+		driver=new ChromeDriver();
 		return driver;
 	}
 
