@@ -1,4 +1,5 @@
 package explicitPackage;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,9 +14,9 @@ public class TheBankJob {
 		String expectedTitle="Guru99 Bank Home Page";
 		WebDriver driver=DriverCon.SetBrowser();
 		String actualTitle=null;
-		// Open facebook
+		DOMConfigurator.configure("log4j.xml");
+		Log4j2Example.info("Browser opened and website launched");
 		driver.get(Util.URL);
-		
 		// Maximize browser
 		driver.manage().window().maximize();
 		
