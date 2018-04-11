@@ -15,5 +15,14 @@ public class DriverCon {
 		driver=new ChromeDriver();
 		return driver;
 	}
-
+	public static void SetUp()
+	{
+		driver.get(Util.URL);
+		// Maximize browser
+		driver.manage().window().maximize();
+	}
+	public static void QuitDriver()
+	{
+		driver.quit();
+	}
 }
