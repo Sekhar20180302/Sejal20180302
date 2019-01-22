@@ -1,11 +1,15 @@
 package SeleniumTest.Selenium;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Test {
 
-	public static void main(String[] args) {
+public class Test1 {
+	@Test
+public void Demo()
+	 
+	 {
 		// TODO Auto-generated method stub
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sekhar\\Eclipse-Workspace\\Selenium Drivers\\chromedriver.exe");
@@ -15,10 +19,10 @@ public class Test {
 		 
 		// Open facebook
 		driver.get("http://www.facebook.com");
-		 
-		// Maximize browser
 		driver.manage().window().maximize();
-		
+		 driver.quit();
+		// Maximize browser
+			
 		System.out.println("bye bye");
 }
-	}
+ }

@@ -22,7 +22,7 @@ public class SelTest {
 		driver.manage().window().maximize();
 		
 		System.out.println("Hello World!!!!");
-		
+		System.out.println("Welcome to Facebook!!!");
 		System.out.println("Quit");
 		
 		driver.quit();
