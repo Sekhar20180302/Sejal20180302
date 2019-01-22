@@ -30,8 +30,8 @@ public class Framework_002 {
 	  	sTestCaseName = this.toString();
 	  	sTestCaseName = Utils.getTestCaseName(this.toString());
 		Log.startTestCase(sTestCaseName);
-		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
-		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName,Constant.Col_TestCaseName);
+		//ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
+		//iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName,Constant.Col_TestCaseName);
 		driver = Utils.OpenBrowser(iTestCaseRow);
 		new BaseClass(driver);  
         }

@@ -1,0 +1,65 @@
+2018-03-31 20:57:13,043 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:57:13,043 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:57:13,043 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-03-31 20:57:13,043 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:57:13,043 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:59:27,979 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:59:27,995 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:59:27,995 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-03-31 20:59:27,995 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:59:27,995 INFO  [Log] **************************************************************************************** 
+2018-03-31 20:59:41,654 INFO  [Log] New driver instantiated 
+2018-03-31 20:59:41,670 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-03-31 21:04:41,845 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : timeout
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'LAPTOP-27TTP7L7', ip: '10.243.74.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Sekhar\AppData\Local\Temp\scoped_dir14148_11666}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ed1e0ee47aa5ee2d56857cf2a46798d7 
+2018-03-31 21:04:41,999 INFO  [Log] My Account link is found on the Home Page 
+2018-03-31 21:04:46,882 INFO  [Log] Click action is perfromed on My Account link 
+2018-03-31 21:04:46,915 INFO  [Log] Username text box is found on the Login Page 
+2018-03-31 21:04:47,045 INFO  [Log]  is entered in UserName text box 
+2018-03-31 21:04:47,098 INFO  [Log] Password text box is found on the Login page 
+2018-03-31 21:04:47,170 INFO  [Log]  is entered in Password text box 
+2018-03-31 21:04:47,199 INFO  [Log] Submit button is found on the Login page 
+2018-03-31 21:04:47,327 INFO  [Log] Click action is performed on Submit button 
+2018-03-31 21:05:07,366 ERROR [Log] Log Out link is not found on the Home Page 
+2018-03-31 21:05:07,377 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-03-31 21:05:07,377 INFO  [Log] X 
+2018-03-31 21:05:07,377 INFO  [Log] X 
+2018-03-31 21:05:07,377 INFO  [Log] X 
+2018-03-31 21:05:07,377 INFO  [Log] X 
+2018-03-31 22:56:45,776 INFO  [Log] **************************************************************************************** 
+2018-03-31 22:56:45,776 INFO  [Log] **************************************************************************************** 
+2018-03-31 22:56:45,776 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-03-31 22:56:45,776 INFO  [Log] **************************************************************************************** 
+2018-03-31 22:56:45,776 INFO  [Log] **************************************************************************************** 
+2018-03-31 22:56:59,426 INFO  [Log] New driver instantiated 
+2018-03-31 22:56:59,494 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-03-31 23:01:59,640 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : timeout
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'LAPTOP-27TTP7L7', ip: '10.243.74.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Sekhar\AppData\Local\Temp\scoped_dir13440_11448}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 96091a3f04aaf697fa86043fa90e2e5a 
+2018-03-31 23:01:59,866 INFO  [Log] My Account link is found on the Home Page 
+2018-03-31 23:02:05,928 INFO  [Log] Click action is perfromed on My Account link 
+2018-03-31 23:02:05,967 INFO  [Log] Username text box is found on the Login Page 
+2018-03-31 23:02:06,106 INFO  [Log]  is entered in UserName text box 
+2018-03-31 23:02:06,146 INFO  [Log] Password text box is found on the Login page 
+2018-03-31 23:02:06,220 INFO  [Log]  is entered in Password text box 
+2018-03-31 23:02:06,252 INFO  [Log] Submit button is found on the Login page 
+2018-03-31 23:02:06,392 INFO  [Log] Click action is performed on Submit button 
+2018-03-31 23:02:16,321 INFO  [Log] Log Out link is found on the Home Page 
+2018-03-31 23:02:17,062 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-03-31 23:02:17,062 INFO  [Log] X 
+2018-03-31 23:02:17,062 INFO  [Log] X 
+2018-03-31 23:02:17,062 INFO  [Log] X 
+2018-03-31 23:02:17,062 INFO  [Log] X 

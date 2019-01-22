@@ -32,6 +32,7 @@ public class Framework_001{
 	    // http://www.toolsqa.com/test-case-with-log4j/
 	    // http://www.toolsqa.com/log4j-logging/
 	  	DOMConfigurator.configure("log4j.xml");
+	  	System.out.print("Hello");
 	  	// Getting the Test Case name, as it will going to use in so many places
 	  	// The main use is to get the TestCase row from the Test Data Excel sheet
 	  	sTestCaseName = this.toString();
@@ -59,7 +60,7 @@ public class Framework_001{
 		// Will soon write a post on Base Class
 		new BaseClass(driver);  
         }
-  /*
+  
   // This is the starting of the Main Test Case
   @Test
   public void main() throws Exception {
@@ -129,5 +130,5 @@ public class Framework_001{
 	    // Closing the opened driver
 	    driver.close();
   		}
-*/
+
 }

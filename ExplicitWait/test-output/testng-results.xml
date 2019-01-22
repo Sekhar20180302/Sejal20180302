@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86034" started-at="2018-04-28T18:21:44Z" finished-at="2018-04-28T18:23:10Z">
+    <groups>
+    </groups>
+    <test name="Bank" duration-ms="86034" started-at="2018-04-28T18:21:44Z" finished-at="2018-04-28T18:23:10Z">
+      <class name="explicitPackage.TheBankJob">
+        <test-method status="PASS" signature="BankJob()[pri:0, instance:explicitPackage.TheBankJob@6093dd95]" name="BankJob" duration-ms="85992" started-at="2018-04-28T23:51:44Z" finished-at="2018-04-28T23:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankJob -->
+      </class> <!-- explicitPackage.TheBankJob -->
+    </test> <!-- Bank -->
+  </suite> <!-- Suite -->
+</testng-results>
