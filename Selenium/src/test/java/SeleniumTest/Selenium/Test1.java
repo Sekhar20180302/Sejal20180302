@@ -20,7 +20,8 @@ public void Demo()
 		// Open facebook
 		driver.get("http://www.facebook.com");
 		driver.manage().window().maximize();
-		 driver.quit();
+		//Quit
+		driver.quit();
 		// Maximize browser
 			
 		System.out.println("bye bye");
