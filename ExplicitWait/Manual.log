@@ -81,3 +81,28 @@
 2018-04-28 23:53:07 INFO  explicitPackage.Log4j2Example:14 - Enter the User name
 2018-04-28 23:53:08 INFO  explicitPackage.Log4j2Example:14 - Enter the password
 2018-04-28 23:53:08 INFO  explicitPackage.Log4j2Example:14 - click ok to login
+2019-01-23 02:54:37 INFO  explicitPackage.Log4j2Example:14 - Browser opened and website launched
+2019-01-23 02:56:36 INFO  explicitPackage.Log4j2Example:14 - Get the title and compare the expected result
+2019-01-23 02:56:45 INFO  explicitPackage.Log4j2Example:14 - Reading Data from Excel
+2019-01-23 02:56:45 INFO  explicitPackage.Log4j2Example:14 - If correct page then login
+2019-01-23 02:56:47 INFO  explicitPackage.Log4j2Example:14 - Enter the User name
+2019-01-23 02:56:47 INFO  explicitPackage.Log4j2Example:14 - Enter the password
+2019-01-23 02:56:51 INFO  explicitPackage.Log4j2Example:14 - click ok to login
+2019-01-23 02:57:30 INFO  explicitPackage.Log4j2Example:14 - Get the title and compare the expected result
+2019-01-23 02:57:31 INFO  explicitPackage.Log4j2Example:14 - Reading Data from Excel
+2019-01-23 02:57:33 INFO  explicitPackage.Log4j2Example:14 - If correct page then login
+2019-01-23 02:57:37 INFO  explicitPackage.Log4j2Example:14 - Enter the User name
+2019-01-23 02:57:37 INFO  explicitPackage.Log4j2Example:14 - Enter the password
+2019-01-23 02:57:39 INFO  explicitPackage.Log4j2Example:14 - click ok to login
+2019-01-23 02:58:13 INFO  explicitPackage.Log4j2Example:14 - Get the title and compare the expected result
+2019-01-23 02:58:17 INFO  explicitPackage.Log4j2Example:14 - Reading Data from Excel
+2019-01-23 02:58:21 INFO  explicitPackage.Log4j2Example:14 - If correct page then login
+2019-01-23 02:58:30 INFO  explicitPackage.Log4j2Example:14 - Enter the User name
+2019-01-23 02:58:30 INFO  explicitPackage.Log4j2Example:14 - Enter the password
+2019-01-23 02:58:32 INFO  explicitPackage.Log4j2Example:14 - click ok to login
+2019-01-23 02:59:17 INFO  explicitPackage.Log4j2Example:14 - Get the title and compare the expected result
+2019-01-23 02:59:19 INFO  explicitPackage.Log4j2Example:14 - Reading Data from Excel
+2019-01-23 02:59:20 INFO  explicitPackage.Log4j2Example:14 - If correct page then login
+2019-01-23 02:59:26 INFO  explicitPackage.Log4j2Example:14 - Enter the User name
+2019-01-23 02:59:26 INFO  explicitPackage.Log4j2Example:14 - Enter the password
+2019-01-23 02:59:27 INFO  explicitPackage.Log4j2Example:14 - click ok to login
