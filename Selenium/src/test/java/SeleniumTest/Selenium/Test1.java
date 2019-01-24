@@ -1,32 +1,29 @@
+package SeleniumTest.Selenium;
 
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SelTest {
 
+public class Test1 {
 	@Test
-	public void test() {
+public void Demo()
+	 
+	 {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sekhar\\Eclipse-Workspace\\Selenium Drivers\\chromedriver.exe");
 		 
 		// Initialize browser
 		WebDriver driver=new ChromeDriver();
 		 
-		// Open facebook page
+		// Open facebook
 		driver.get("http://www.facebook.com");
-		// Maximize browsers
 		driver.manage().window().maximize();
-		//Print Logs
-		System.out.println("Hello World!!!!");
-
-		System.out.println("Welcome to Facebook!!!");
-		System.out.println("Quit");
-		System.out.println("Quit Driver!!");
-		//Done
+		//Quit
 		driver.quit();
-	}
-
+		// Maximize browser
+			
+		System.out.println("bye bye");
 }
+ }
