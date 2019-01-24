@@ -15,16 +15,17 @@ public class SelTest {
 		// Initialize browser
 		WebDriver driver=new ChromeDriver();
 		 
-		// Open facebook
+		// Open facebook page
 		driver.get("http://www.facebook.com");
-		 
-		// Maximize browser
+		// Maximize browsers
 		driver.manage().window().maximize();
-		
+		//Print Logs
 		System.out.println("Hello World!!!!");
+
 		System.out.println("Welcome to Facebook!!!");
 		System.out.println("Quit");
-		
+		System.out.println("Quit Driver!!");
+		//Done
 		driver.quit();
 	}
 
